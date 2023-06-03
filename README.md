@@ -29,5 +29,6 @@ HUGGINGFACEHUB_API_TOKEN=
 ## Run the WebApp:
 
 ```shell
-streamlit run huggingChat.py
+streamlit run huggingChat.py --server.port XXXX
 ```
+Where XXXX is your desired (and hopefully free) port number
